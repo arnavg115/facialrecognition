@@ -1,7 +1,7 @@
 # Face Detection using tensorflow
 This is a project I have worked on using code from many sources and some of my own.
 ## Disclaimer: NOT ALL OF THE CODE IS MINE
-A lot of collect.py was from <a href ="https://github.com/SouravJohar/rock-paper-scissors ">Sourav Johar's rock-paper-scissors project. However I added the face detection algorithm to collect the data on the face. For the face detection algorithm I used <a href="https://towardsdatascience.com/face-detection-in-2-minutes-using-opencv-python-90f89d7c0f81"> Adarsh Menon's post</a>. I would check both of them out. In addition I do not own the haarcascade_frontalface_default.xml. This is from the opencv github page and was made by Rainer Lienhart. Make sure to read the copyright below as downloading this file means you agree to it.
+A lot of collect.py was from <a href ="https://github.com/SouravJohar/rock-paper-scissors ">Sourav Johar's rock-paper-scissors project</a>. However I added the face detection algorithm to collect the data on the face. For the face detection algorithm I used <a href="https://towardsdatascience.com/face-detection-in-2-minutes-using-opencv-python-90f89d7c0f81"> Adarsh Menon's post</a>. I would check both of them out. In addition I do not own the haarcascade_frontalface_default.xml. This is from the opencv github page and was made by Rainer Lienhart. Make sure to read the copyright below as downloading this file means you agree to it.
 
                         Intel License Agreement
                 For Open Source Computer Vision Library
