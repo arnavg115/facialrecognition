@@ -38,7 +38,7 @@ A lot of collect.py was from <a href ="https://github.com/SouravJohar/rock-paper
 1. Get all of the files
 Clone this repository
 ```shell
-git clone 
+git clone https://github.com/arnavg115/facialrecognition.git
 ```
 Get the 
 2. Install all of the nescessary packages
