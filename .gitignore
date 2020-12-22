@@ -5,3 +5,4 @@ __pycache__
 p.py 
 f.py
 model.h5
+.DS_Store
