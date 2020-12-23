@@ -44,7 +44,6 @@ For now it is able to detect one face at a time. I am working on making it able 
 ## Other stuff
 Feel free to modify the code that I wrote and also checkout the projects of both Sourav Johar and Adarsh Menon as they are very interesting as well and really well made.
 ### Some errors
-<<<<<<< HEAD
 Make sure tensorflow and keras are updated to the latest versions. I have only tested it with two people so there might errors with more than two people. If for some reason opencv(cv2) or numpy is giving errors please downgrade them using pip. One basic issue you may have is with pip shown below.
 #### Example:
 Downgrade numpy.
