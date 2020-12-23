@@ -70,4 +70,4 @@ pip3 install tensorflow
 ```
 =======
 Make sure tensorflow and keras are updated to the latest versions. I have only tested it with two people so there might errors with more than two people.  
->>>>>>> e4410672e240ab47bee28775b510b24fae3850a6
+
