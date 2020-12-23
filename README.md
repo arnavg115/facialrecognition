@@ -1,39 +1,7 @@
 # Face Detection using tensorflow
 This is a project I have worked on using code from many sources and some of my own.
 ## Disclaimer: NOT ALL OF THE CODE IS MINE
-A lot of collect.py was from <a href ="https://github.com/SouravJohar/rock-paper-scissors ">Sourav Johar's rock-paper-scissors project</a>. However I added the face detection algorithm to collect the data on the face. For the face detection algorithm I used <a href="https://towardsdatascience.com/face-detection-in-2-minutes-using-opencv-python-90f89d7c0f81"> Adarsh Menon's post</a>. I would check both of them out. In addition I do not own the haarcascade_frontalface_default.xml. This is from the opencv github page and was made by Rainer Lienhart. Make sure to read the copyright below as downloading this file means you agree to it.
----
-### OPENCV COPYRIGHT
-
-                        Intel License Agreement
-                For Open Source Computer Vision Library
-
- Copyright (C) 2000, Intel Corporation, all rights reserved.
- Third party copyrights are property of their respective owners.
-
- Redistribution and use in source and binary forms, with or without modification,
- are permitted provided that the following conditions are met:
-
-   * Redistribution's of source code must retain the above copyright notice,
-     this list of conditions and the following disclaimer.
-
-   * Redistribution's in binary form must reproduce the above copyright notice,
-     this list of conditions and the following disclaimer in the documentation
-     and/or other materials provided with the distribution.
-
-   * The name of Intel Corporation may not be used to endorse or promote products
-     derived from this software without specific prior written permission.
-
- This software is provided by the copyright holders and contributors "as is" and
- any express or implied warranties, including, but not limited to, the implied
- warranties of merchantability and fitness for a particular purpose are disclaimed.
- In no event shall the Intel Corporation or contributors be liable for any direct,
- indirect, incidental, special, exemplary, or consequential damages
- (including, but not limited to, procurement of substitute goods or services;
- loss of use, data, or profits; or business interruption) however caused
- and on any theory of liability, whether in contract, strict liability,
- or tort (including negligence or otherwise) arising in any way out of
- the use of this software, even if advised of the possibility of such damage.
+A lot of collect.py was from <a href ="https://github.com/SouravJohar/rock-paper-scissors ">Sourav Johar's rock-paper-scissors project</a>. However I added the face detection algorithm to collect the data on the face. For the face detection algorithm I used <a href="https://towardsdatascience.com/face-detection-in-2-minutes-using-opencv-python-90f89d7c0f81"> Adarsh Menon's post</a>. I would check both of them out. In addition I do not own the haarcascade_frontalface_default.xml. This is from the opencv github page and was made by Rainer Lienhart. Make sure to read the copyright below as downloading this file means you agree to it. To see this go to file and also check out the <a href ="https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml">opencv github.</a>
 ---
 
 ## The code:
@@ -44,7 +12,8 @@ git clone https://github.com/arnavg115/facialrecognition.git
 ```
 Get the 
 2. Install all of the nescessary packages
-Install tensorflow
+Install tensorflow.
+Quick note: If you are on windows I would recommend following <a href= "https://www.tensorflow.org/install/pip"> this guide</a> as there are some other files you may have to install.
 ```shell
 pip install tensorflow
 ```
@@ -75,4 +44,26 @@ For now it is able to detect one face at a time. I am working on making it able 
 ## Other stuff
 Feel free to modify the code that I wrote and also checkout the projects of both Sourav Johar and Adarsh Menon as they are very interesting as well and really well made.
 ### Some errors
-Make sure tensorflow and keras are updated to the latest versions. I have only tested it with two people so there might errors with more than two people.  
+Make sure tensorflow and keras are updated to the latest versions. I have only tested it with two people so there might errors with more than two people. If for some reason opencv(cv2) or numpy is giving errors please downgrade them using pip. One basic issue you may have is with pip shown below.
+#### Example:
+Downgrade numpy.
+```shell
+pip install numpy==1.19.3
+```
+Downgrade opencv
+```shell
+pip install opencv-python==4.4.0.44
+```
+#### pip error
+If you try for example
+```shell
+pip install tenorflow
+```
+and it gives an error
+```shell
+-bash: pip: command not found
+```
+Instead of pip for all of the pip commands use pip3. So type
+```shell
+pip3 install tensorflow
+```
