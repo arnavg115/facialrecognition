@@ -68,6 +68,5 @@ Instead of pip for all of the pip commands use pip3. So type
 ```shell
 pip3 install tensorflow
 ```
-=======
 Make sure tensorflow and keras are updated to the latest versions. I have only tested it with two people so there might errors with more than two people.  
 
