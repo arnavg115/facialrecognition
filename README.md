@@ -57,7 +57,7 @@ pip install opencv-python==4.4.0.44
 #### pip error
 If you try for example
 ```shell
-pip install tenorflow
+pip install tensorflow
 ```
 and it gives an error
 ```shell
