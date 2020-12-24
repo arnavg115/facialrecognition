@@ -23,6 +23,7 @@ Install opencv
 pip install opencv-python
 ```
 3. Gather the nescessary data
+
 In the terminal type
 ```shell
 python collect.py /name of person/ /number of images/
