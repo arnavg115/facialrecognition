@@ -1,6 +1,7 @@
 # Face Detection using tensorflow
 This is a project I have worked on using code from many sources and some of my own.
 ## Disclaimer: NOT ALL OF THE CODE IS MINE
+
 A lot of collect.py was from <a href ="https://github.com/SouravJohar/rock-paper-scissors ">Sourav Johar's rock-paper-scissors project</a>. However I added the face detection algorithm to collect the data on the face. For the face detection algorithm I used <a href="https://towardsdatascience.com/face-detection-in-2-minutes-using-opencv-python-90f89d7c0f81"> Adarsh Menon's post</a>. I would check both of them out. In addition I do not own the haarcascade_frontalface_default.xml. This is from the opencv github page and was made by Rainer Lienhart. Make sure to read the copyright below as downloading this file means you agree to it. To see this go to file and also check out the <a href ="https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml">opencv github.</a>
 ---
 
@@ -10,7 +11,6 @@ Clone this repository
 ```shell
 git clone https://github.com/arnavg115/facialrecognition.git
 ```
-Get the 
 2. Install all of the nescessary packages
 Install tensorflow.
 Quick note: If you are on windows I would recommend following <a href= "https://www.tensorflow.org/install/pip"> this guide</a> as there are some other files you may have to install.
