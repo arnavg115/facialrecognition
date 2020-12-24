@@ -35,7 +35,8 @@ Once you have captured the needed data, run the training script.
 python train.py
 ```
 It might take a while depending on your hardware. It should start with each of the epochs. Then it should save the model to a file called 'model.h5'. 
-Note: Delete this file before retraining as it might lead to errors in the program. 
+Note: Delete this file before retraining as it might lead to errors in the program.
+
 5. Use the AI to detect faces
 So now that you have done all of the prep work you can start the program with
 ```shell
