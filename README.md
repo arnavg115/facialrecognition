@@ -1,8 +1,7 @@
 # Face Detection using tensorflow
 This is a project I have worked on using code from many sources and some of my own.
-## Disclaimer: NOT ALL OF THE CODE IS MINE
-
-A lot of collect.py was from <a href ="https://github.com/SouravJohar/rock-paper-scissors ">Sourav Johar's rock-paper-scissors project</a>. However I added the face detection algorithm to collect the data on the face. For the face detection algorithm I used <a href="https://towardsdatascience.com/face-detection-in-2-minutes-using-opencv-python-90f89d7c0f81"> Adarsh Menon's post</a>. I would check both of them out. In addition I do not own the haarcascade_frontalface_default.xml. This is from the opencv github page and was made by Rainer Lienhart. Make sure to read the copyright below as downloading this file means you agree to it. To see this go to file and also check out the <a href ="https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml">opencv github.</a>
+## Disclaimer: NOT ALL OF THE CODE IS MINE  
+1. A lot of collect.py was from <a href ="https://github.com/SouravJohar/rock-paper-scissors ">Sourav Johar's rock-paper-scissors project</a>. However I added the face detection algorithm to collect the data on the face. For the face detection algorithm I used <a href="https://towardsdatascience.com/face-detection-in-2-minutes-using-opencv-python-90f89d7c0f81"> Adarsh Menon's post</a>. I would check both of them out. In addition I do not own the haarcascade_frontalface_default.xml. This is from the opencv github page and was made by Rainer Lienhart. Make sure to read the copyright below as downloading this file means you agree to it. To see this go to file and also check out the <a href ="https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_default.xml">opencv github.</a>
 ---
 
 ## The code:
@@ -42,7 +41,7 @@ So now that you have done all of the prep work you can start the program with
 ```shell
 python detect.py
 ```
-For now it is able to detect one face at a time. I am working on making it able to do many faces. When run it should open the same webcam window used to get the training data. Just like before it should box your face automaticaly and also recognize it.
+6. For now it is able to detect one face at a time. I am working on making it able to do many faces. When run it should open the same webcam window used to get the training data. Just like before it should box your face automaticaly and also recognize it.
 ---
 ## Other stuff
 Feel free to modify the code that I wrote and also checkout the projects of both Sourav Johar and Adarsh Menon as they are very interesting as well and really well made.
