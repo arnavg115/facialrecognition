@@ -12,7 +12,9 @@ Clone this repository
 git clone https://github.com/arnavg115/facialrecognition.git
 ```
 2. Install all of the nescessary packages
+
 Install tensorflow.
+
 Quick note: If you are on windows I would recommend following <a href= "https://www.tensorflow.org/install/pip"> this guide</a> as there are some other files you may have to install.
 ```shell
 pip install tensorflow
