@@ -43,12 +43,12 @@ So now that you have done all of the prep work you can start the program with
 ```shell
 python detect.py
 ```
-6. For now it is able to detect one face at a time. I am working on making it able to do many faces. When run it should open the same webcam window used to get the training data. Just like before it should box your face automaticaly and also recognize it.
+6. It is able to detect many faces at the same time. When it is run it should open the same webcam window used to get the training data. Just like before it should box your face. Then you might notice there is a new label for the face which is what my model has predicted.
 ---
 ## Other stuff
 Feel free to modify the code that I wrote and also checkout the projects of both Sourav Johar and Adarsh Menon as they are very interesting as well and really well made.
 ### Some errors
-Make sure tensorflow and keras are updated to the latest versions. I have only tested it with two people so there might errors with more than two people. If for some reason opencv(cv2) or numpy is giving errors please downgrade them using pip. One basic issue you may have is with pip shown below.
+Make sure tensorflow and keras are updated to the latest versions. I have only tested it with two people so there might errors with more than two people. If for some reason opencv(cv2) or numpy is giving errors please downgrade them using pip. One basic issue you may have is with pip shown below. This program maybe slow on your computer and in my testing this program maybe cpu intensive and also use a lot of ram. 
 #### Example:
 Downgrade numpy.
 ```shell
