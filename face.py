@@ -1,7 +1,7 @@
 
 import os
 import cv2
-os.chdir("facialrecognition")
+
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 kjl = 500
 for img in os.listdir("main"):

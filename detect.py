@@ -4,7 +4,7 @@ from tensorflow import keras
 import numpy
 import os
 from tensorflow.python.keras import models
-os.chdir("facialrecognition")
+
 model = models.load_model('model.h5')
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cap = cv2.VideoCapture(0)
@@ -18,7 +18,6 @@ while True:
         cord2 = (x+w,y+h)
 
         cv2.rectangle(imgs, cord1, cord2, (255, 255, 255), 2)
-
         img = imgs[cord1[1]:cord2[1], cord1[0]:cord2[0]]
         unmodded = img
         img = cv2.resize(img,(256,256))

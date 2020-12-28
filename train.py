@@ -2,7 +2,7 @@
 from PIL import Image
 import tensorflow as tf
 import os
-os.chdir("facialrecognition")
+
 from tensorflow import keras
 
 train = tf.keras.preprocessing.image.ImageDataGenerator(1/255)
