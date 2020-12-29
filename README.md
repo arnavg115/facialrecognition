@@ -30,6 +30,7 @@ In the terminal type
 python collect.py /name of person/ /number of images/
 ```
 For the /name of person/ put in the name of the person you are collecting data for. For the /number of images/ put in the number of images you wish to capture. I recommend 300 images as sometimes the face detection algoorithm can wrongly detect an object and the save it. After hitting enter the program should launch a window where you can see your webcam's stream. I would make sure it is able to see your face and puts a box around it. Once this is done hit A on your keyboard for it to start capturing images. It should create a folder under the name "image_data" and the images will be saved to "/name of person/". Now I would go through the pictures and delete all of the pictures where there is no face and delete them. Repeat this for as many faces you want the model to recognize.
+
 4. Train the model
 Once you have captured the needed data, run the training script.
 ```shell
